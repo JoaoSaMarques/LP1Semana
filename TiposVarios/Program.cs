@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Text
 
 namespace TiposVarios
 {
@@ -18,6 +18,13 @@ namespace TiposVarios
             newLine2 = &#129512;
             char newLine3;
             newLine3 = &#127879;
+            Console.WriteLine(newLine1, newLine2, newLine3)
+        }
+        bool main()
+        {
+            bool condition1 = false;
+            bool condition2 = 5 > 3;
+            Console.WriteLine(condition1, condition2)
         }
 
     }

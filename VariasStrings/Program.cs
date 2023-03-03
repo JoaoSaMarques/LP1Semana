@@ -4,11 +4,13 @@ namespace VariasStrings
 {
     class Program
     {
-        string main()
+        static void Main(string[] args)
         {
-            string s = C:\Users\joaos
-            string a = &#128293;
-            Console.WriteLine(s, a);
+            string message = "Ola Mundo!";
+            message = "Alterar os conteudos da string ";;
+            Console.WriteLine(message);
+
+            
         }
     }
 }

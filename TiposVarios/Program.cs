@@ -9,16 +9,16 @@ namespace TiposVarios
             numbers()
             {
                 //Tells you the quantity of pineapples.
-                pineapplecount = 25;
+                int pineapplecount = 25;
 
-                printf("Amount of pineapples: ", pineapplecount);
+                Console.WriteLine("Amount of pineapples: ", pineapplecount);
             }
             char()
             {
                 //prints 2 lines.
-                characters = "Here is the first line. \n";
-                    "Here is the second line.";
-                printf(characters);
+                string characters = "Here is the first line. \n
+                    Here is the second line.";
+                Console.WriteLine(characters)
                 bool i = equal(45, 30);
                 printf(i);
             }

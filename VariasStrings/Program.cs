@@ -6,10 +6,12 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
-            string message = "Ola Mundo!";
-            message = "Alterar os conteudos da string ";;
-            Console.WriteLine(message);
-
+            string s = "Banana";
+            
+            Console.WriteLine(s[0]);
+            Console.WriteLine(s[2]);
+            Console.WriteLine(s[4]);
+            Console.WriteLine(s[5]);
             
         }
     }

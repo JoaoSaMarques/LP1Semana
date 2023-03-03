@@ -1,31 +1,39 @@
-﻿using System.Text
+﻿using System;
 
 namespace TiposVarios
 {
     class Program
     {
-        int main()
+        static void Main(string[] args)
         {
-            int number;
-            number = 8
-            Console.WriteLine(number);
-        }
-        char main()
-        {
-            char newLine1;
-            newLine1 = &#128293;
-            char newLine2;
-            newLine2 = &#129512;
-            char newLine3;
-            newLine3 = &#127879;
-            Console.WriteLine(newLine1, newLine2, newLine3)
-        }
-        bool main()
-        {
-            bool condition1 = false;
-            bool condition2 = 5 > 3;
-            Console.WriteLine(condition1, condition2)
-        }
+            numbers()
+            {
+                //Tells you the quantity of pineapples.
+                pineapplecount = 25;
 
+                printf("Amount of pineapples: ", pineapplecount);
+            }
+            char()
+            {
+                //prints 2 lines.
+                characters = "Here is the first line. \n";
+                    "Here is the second line.";
+                printf(characters);
+                bool i = equal(45, 30);
+                printf(i);
+            }
+            //Checks if both numbers are equal and the result.
+            bool equal(int a, int b)
+            {
+                if(a == b)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
     }
 }
